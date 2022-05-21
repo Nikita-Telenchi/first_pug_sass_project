@@ -1,0 +1,266 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap");
+body {
+  font-family: 'DM Sans';
+  margin: 0 8.3vw;
+}
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 3vw;
+}
+
+header .container_logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header .container_menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header .container_menu ul {
+  margin: 0px;
+  padding: 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  list-style-type: none;
+}
+
+header .container_menu ul li:not(:last-child) {
+  padding-right: 3.47vw;
+}
+
+header .icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+header .icons .icon_search {
+  padding-right: 1.39vw;
+}
+
+.cover-wrapper {
+  margin-top: 2.08vw;
+  background-color: #154444;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.cover-wrapper .cover-wrapper-value {
+  margin: 7vw 2vw 0px 7vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  color: white;
+}
+
+.cover-wrapper .cover-wrapper-value .cover-wrapper-value-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.cover-wrapper .cover-wrapper-value .cover-wrapper-value-text span.title {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 3.5rem;
+  line-height: 4.25rem;
+}
+
+.cover-wrapper .cover-wrapper-value .cover-wrapper-value-text span.des {
+  margin: 1.38vw 0px 2.45vw 0px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.25rem;
+  line-height: 1.563rem;
+}
+
+.cover-wrapper .cover-wrapper-value .cover-wrapper-value-btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.cover-wrapper .cover-wrapper-value .cover-wrapper-value-btn a {
+  background-color: white;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.25rem;
+  line-height: 25px;
+  padding: 1.04vw 1.73vw;
+  color: #154444;
+}
+
+.logotypes_clients {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 9.722vw 4.097vw;
+}
+
+.logotypes_clients .title {
+  color: #244D4D;
+  font-weight: 700;
+  font-size: 2rem;
+  line-height: 2.625rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.logotypes_clients .logotypes {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 2.777vw;
+}
+
+.about_us {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.about_us .content {
+  padding: 3.264vw 0;
+  margin-left: 6.944vw;
+}
+
+.about_us .content .title {
+  font-family: 'Montserrat';
+  font-weight: 700;
+  color: #244D4D;
+  font-size: 2rem;
+  line-height: 2.5rem;
+}
+
+.about_us .content .des {
+  color: #444444;
+  font-size: 1.25rem;
+  margin-bottom: 2.778vw;
+}
+
+.about_us .content .frame {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: start;
+  margin-bottom: 2.083vw;
+}
+
+.about_us .content .frame img {
+  margin-right: 1.944vw;
+}
+
+.about_us .content .frame .title {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: #244D4D;
+  line-height: 1.625rem;
+  margin-bottom: 0.972vw;
+}
+
+.about_us .content .frame .des {
+  font-size: 1.125rem;
+}
+
+.goods .head {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 5.556vw;
+}
+
+.goods .head .text .title {
+  font-family: 'Montserrat';
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 1.389vw;
+}
+
+.goods .head .text .union .des {
+  width: 70%;
+  font-size: 1.25rem;
+}
+
+.goods .head .text .union .arrors {
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.goods .head .text .union .arrors img {
+  width: 2.778vw;
+  height: 2.778vw;
+}
+
+.goods .head .text .union .arrors img.leftAr {
+  margin-right: 1.111vw;
+}
+
+footer {
+  background-color: #154444;
+  color: white;
+}
+/*# sourceMappingURL=styles.css.map */

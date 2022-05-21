@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap')
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap')
+$base-brand-color: #154444
+$second-brand-color: #244D4D
+$p-shade-black-color: #383738
+$r-shade-black-color: #242424
+
+
+$font_size_42px: 2.625rem
+$font_size_32px: 2rem
+$font_size_25px: 1.563rem
+$font_size_24px: 1.5rem
+$font_size_20px: 1.25rem
+$font_size_18px: 1.125rem
+$font_size_12px: 0.75rem
+
+
+body
+    font-family: 'DM Sans'
+    margin: 0 8.3vw
+    
+
+
+header
+    display: flex
+    justify-content: space-between
+    margin-top: 3vw 
+    .container_logo
+        display: flex
+        align-items: center
+    .container_menu
+        display: flex
+        justify-content: center
+        align-items: center
+        ul
+            margin: 0px
+            padding: 0px
+            display: flex
+            justify-content: space-around
+            list-style-type: none
+            li:not(:last-child)
+                padding-right: 3.47vw
+    .icons 
+        display: flex
+        align-items: center
+        justify-content: space-between
+        .icon_search
+            padding-right: 1.39vw
+
+        
+.cover-wrapper
+    margin-top: 2.08vw
+    background-color: $base-brand-color
+    display: flex
+    justify-content: space-between
+    .cover-wrapper-value
+        margin: 7vw 2vw 0px 7vw
+        display: flex
+        flex-direction: column
+        color: white
+        .cover-wrapper-value-text
+            display: flex
+            flex-direction: column
+            span.title
+                font-family: 'Montserrat'
+                font-style: normal
+                font-weight: 700
+                font-size: 3.5rem
+                line-height: 4.25rem
+            span.des
+                margin: 1.38vw 0px 2.45vw 0px
+                font-style: normal 
+                font-weight: 400
+                font-size: $font_size_20px
+                line-height: $font_size_25px
+        .cover-wrapper-value-btn
+            display: flex  
+            a
+                background-color: white
+                font-style: normal
+                font-weight: 400
+                font-size: $font_size_20px
+                line-height: 25px
+                padding: 1.04vw 1.73vw
+                color: #154444
+
+.logotypes_clients 
+    display: flex
+    flex-direction: column
+    margin: 9.722vw 4.097vw
+    .title 
+        color: $second-brand-color   
+        font-weight: 700
+        font-size: $font_size_32px
+        line-height: $font_size_42px
+        display: flex
+        justify-content: center
+    .logotypes 
+        display: flex
+        justify-content: space-between
+        margin-top: 2.777vw
+
+.about_us 
+    display: flex
+    justify-content: space-between
+    .content
+        padding: 3.264vw 0
+        margin-left: 6.944vw
+        .title 
+            font-family: 'Montserrat'
+            font-weight: 700
+            color: $second-brand-color
+            font-size: $font_size_32px
+            line-height: 2.5rem
+        .des
+            color: #444444
+            font-size: $font_size_20px
+            margin-bottom: 2.778vw
+        .frame
+            display: flex
+            align-items: start
+            margin-bottom: 2.083vw
+            img
+                margin-right: 1.944vw
+            .title
+                font-size: $font_size_20px
+                font-weight: 700
+                color: $second-brand-color
+                line-height: 1.625rem
+                margin-bottom: 0.972vw
+            .des
+                font-size: $font_size_18px
+
+.goods
+    .head
+        display: flex
+        justify-content: space-between
+        margin-bottom: 5.556vw
+        .text 
+            .title
+                font-family: 'Montserrat'
+                font-size: $font_size_32px
+                font-weight: 700
+                margin-bottom: 1.389vw
+            .union
+                .des 
+                    width: 70%
+                    font-size: $font_size_20px
+                .arrors 
+                    align-self:  flex-end
+                    display: flex
+                    img
+                        width: 2.778vw
+                        height: 2.778vw 
+                    img.leftAr
+                        margin-right: 1.111vw
+    .body 
+        .card  
+            .value
+                .upper-block 
+                    .name 
+                    .group-icons 
+                .lower-block     
+                    .price 
+                    .btn
+
+footer
+    background-color: $base-brand-color
+    color: white
+    

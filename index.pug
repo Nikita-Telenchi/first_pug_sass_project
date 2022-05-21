@@ -1,0 +1,83 @@
+doctype html 
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(name="viewport" content="width=divice-width, initial-scale=1,shrink-to-fit=no")
+        title Pug_shablonization 
+        link(rel="stylesheet",href="project/styles.css")
+    body
+        header.header
+            .container_logo
+                img.logo(src="img/DudeShape.svg", alt="DudeShape logo")
+            .container_menu
+                ul
+                    li Home
+                    li About
+                    li Features
+                    li Contact
+            .icons 
+                img.icon_search(src="img/loupe 1.svg", alt="search")
+                img.icon_menu(src="img/menu 1.svg", alt="menu")
+        //---------new-block----------------
+        .cover-wrapper
+            img(src="img/cover-img.jpg", alt="cover-image")
+            .cover-wrapper-value 
+                .cover-wrapper-value-text
+                    span.title We Help You Make Modern Furniture
+                    span.des All of our furniture uses the best materials and choices for our customers.All of our furniture uses the best materials 
+                .cover-wrapper-value-btn 
+                    a Explore More
+        //---------new-block----------------
+        .logotypes_clients 
+            .title Trusted by 20,000+ companies
+            .logotypes 
+                img(src="img/logo_mastercard.svg", alt="logo_mastercard")
+                img(src="img/logo_airbnb.svg", alt="logo_airbn")
+                img(src="img/logo_uber.svg", alt="logo_uber")
+                img(src="img/logo_paypal.svg", alt="logo_paypal")
+                img(src="img/logo_visa.svg", alt="logo_visa")
+                img(src="img/logo_stripe.svg", alt="logo_stripe")
+        //---------new-block----------------
+        .about_us 
+            img(src="img/img_abount_us.png", alt="img_abount_us")
+            .content
+                .title About Us
+                .des All of our furniture uses the best materials and choices for our customers.All of our furniture uses the best materials 
+                .frame 
+                    img(src="img/security.svg", alt="")
+                    .block 
+                        .title Best Quality
+                        .des All of our furniture uses the best materials and choices
+                .frame 
+                    img(src="img/verify.svg", alt="")
+                    .block 
+                       .title 100% Secure
+                       .des All of our furniture uses the best materials and choices
+                .frame 
+                    img(src="img/delivery.svg", alt="")
+                    .block 
+                        .title Free Shpping
+                        .des All of our furniture uses the best materials and choices
+        //---------new-block----------------
+        .goods 
+            .head 
+                .text 
+                    .title Our Popular Furniture
+                    .union
+                        .des All of our furniture uses the best materials and choices for our customers.All of our furniture uses the best materials and choices for our customers.
+                        .arrors 
+                            img.leftAr(src="img/Frame 86arrL.svg", alt="arrL.svg")
+                            img.rightAr(src="img/Frame 85arrR.svg", alt="arrR.svg")
+            .body 
+                .card 
+                    img(src="", alt="") 
+                    .value
+                        .upper-block 
+                            .name 
+                            .group-icons 
+                        .lower-block     
+                            .price 
+                            .btn
+
+    footer
+        p Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed eiusmod tempor incididunt ut labore .        
